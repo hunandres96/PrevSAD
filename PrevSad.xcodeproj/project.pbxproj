@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		2D1BE725221941860018BD64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1BE724221941860018BD64 /* AppDelegate.swift */; };
-		2D1BE727221941860018BD64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1BE726221941860018BD64 /* ViewController.swift */; };
+		2D1BE727221941860018BD64 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1BE726221941860018BD64 /* WelcomeViewController.swift */; };
 		2D1BE72A221941860018BD64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D1BE728221941860018BD64 /* Main.storyboard */; };
 		2D1BE72C221941870018BD64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D1BE72B221941870018BD64 /* Assets.xcassets */; };
 		2D1BE72F221941870018BD64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D1BE72D221941870018BD64 /* LaunchScreen.storyboard */; };
+		2D1BE737221942A20018BD64 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1BE736221942A20018BD64 /* LogInViewController.swift */; };
+		2D1BE739221942D80018BD64 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1BE738221942D80018BD64 /* RegisterViewController.swift */; };
+		2D1BE73B221943360018BD64 /* PrevSadChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1BE73A221943360018BD64 /* PrevSadChatViewController.swift */; };
+		2D1BE73D221943680018BD64 /* sadPhrasesClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2D1BE73C221943680018BD64 /* sadPhrasesClassifier.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2D1BE721221941860018BD64 /* PrevSad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrevSad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D1BE724221941860018BD64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2D1BE726221941860018BD64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2D1BE726221941860018BD64 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		2D1BE729221941860018BD64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2D1BE72B221941870018BD64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D1BE72E221941870018BD64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D1BE730221941870018BD64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D1BE736221942A20018BD64 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		2D1BE738221942D80018BD64 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		2D1BE73A221943360018BD64 /* PrevSadChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrevSadChatViewController.swift; sourceTree = "<group>"; };
+		2D1BE73C221943680018BD64 /* sadPhrasesClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = sadPhrasesClassifier.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +62,12 @@
 		2D1BE723221941860018BD64 /* PrevSad */ = {
 			isa = PBXGroup;
 			children = (
+				2D1BE73C221943680018BD64 /* sadPhrasesClassifier.mlmodel */,
 				2D1BE724221941860018BD64 /* AppDelegate.swift */,
-				2D1BE726221941860018BD64 /* ViewController.swift */,
+				2D1BE726221941860018BD64 /* WelcomeViewController.swift */,
+				2D1BE736221942A20018BD64 /* LogInViewController.swift */,
+				2D1BE73A221943360018BD64 /* PrevSadChatViewController.swift */,
+				2D1BE738221942D80018BD64 /* RegisterViewController.swift */,
 				2D1BE728221941860018BD64 /* Main.storyboard */,
 				2D1BE72B221941870018BD64 /* Assets.xcassets */,
 				2D1BE72D221941870018BD64 /* LaunchScreen.storyboard */,
@@ -135,8 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D1BE727221941860018BD64 /* ViewController.swift in Sources */,
+				2D1BE73B221943360018BD64 /* PrevSadChatViewController.swift in Sources */,
+				2D1BE727221941860018BD64 /* WelcomeViewController.swift in Sources */,
 				2D1BE725221941860018BD64 /* AppDelegate.swift in Sources */,
+				2D1BE737221942A20018BD64 /* LogInViewController.swift in Sources */,
+				2D1BE739221942D80018BD64 /* RegisterViewController.swift in Sources */,
+				2D1BE73D221943680018BD64 /* sadPhrasesClassifier.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
